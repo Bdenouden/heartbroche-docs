@@ -1,11 +1,265 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+    <link href="assets/images/favicon.png" rel="icon" />
     <title>Heartbroche Docs</title>
+    <!-- Your Title, Description, Stylesheets
+============================================= -->
+    <!-- Stylesheet
+============================== -->
+    <!-- Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="assets/vendor/bootstrap/css/bootstrap.min.css" />
+    <!-- Font Awesome Icon -->
+    <link rel="stylesheet" type="text/css" href="assets/vendor/font-awesome/css/all.min.css" />
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" type="text/css" href="assets/vendor/magnific-popup/magnific-popup.min.css" />
+    <!-- Highlight Syntax -->
+    <link rel="stylesheet" type="text/css" href="assets/vendor/highlight.js/styles/github.css" />
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="assets/css/stylesheet.css" />
 </head>
-<body>
-    <h1>Heartbroche docs work</h1>
+
+<body data-spy="scroll" data-target=".idocs-navigation" data-offset="125">
+
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="lds-ellipsis">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+    <!-- Preloader End -->
+
+    <!-- Document Wrapper   
+=============================== -->
+    <div id="main-wrapper">
+
+        <!-- Header
+  ============================ -->
+        <header id="header" class="sticky-top">
+            <!-- Navbar -->
+            <nav class="primary-menu navbar navbar-expand-lg navbar-dropdown-dark">
+                <div class="container-fluid">
+                    <!-- Sidebar Toggler -->
+                    <button id="sidebarCollapse" class="navbar-toggler d-block d-md-none"
+                        type="button"><span></span><span class="w-75"></span><span class="w-50"></span></button>
+
+                    <!-- Logo -->
+                    <!-- <a class="logo ml-md-3" href="index.html" title="iDocs Template"> <img src="assets/images/logo.png" alt="iDocs Template"/> </a>  -->
+                    <a class="logo ml-md-3" href="index.html" title="HeartBroche Documentation"
+                        style="text-decoration:none">
+                        <h2 style="margin:0">HeartBroche</h2>
+                    </a>
+                    <span class="text-2 ml-2">v1.1</span>
+                    <!-- Logo End -->
+
+                    <!-- Navbar Toggler -->
+                    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse"
+                        data-target="#header-nav"><span></span><span></span><span></span></button>
+
+                    <div id="header-nav" class="collapse navbar-collapse justify-content-end">
+                        <ul class="navbar-nav">
+                            <li><a target="_blank"
+                                    href="https://github.com/Bdenouden/heartbroche-docs/issues/new">Report an issue</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class="social-icons social-icons-sm ml-lg-2 mr-2">
+                        <li class="social-icons-github"><a data-toggle="tooltip"
+                                href="https://github.com/Bdenouden/heartbroche-docs" target="_blank" title=""
+                                data-original-title="Github"><i class="fab fa-github"></i></a></li>
+                        <li class="social-icons-instagram"><a data-toggle="tooltip"
+                                href="https://www.instagram.com/bm_labs/" target="_blank" title=""
+                                data-original-title="Instagram"><i class="fab fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </nav>
+            <!-- Navbar End -->
+        </header>
+        <!-- Header End -->
+
+        <!-- Content
+  ============================ -->
+        <div id="content" role="main">
+
+            <!-- Sidebar Navigation
+    ============================ -->
+            <div class="idocs-navigation bg-light">
+                <ul class="nav flex-column ">
+                    <li class="nav-item"><a class="nav-link active" href="#idocs_start">Getting started</a>
+                        <ul class="nav flex-column">
+                            <li class="nav-item"><a class="nav-link" href="#first_use">First use</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#insert_battery">Inserting the battery</a>
+                            </li>
+                            <li class="nav-item"><a class="nav-link" href="#switch_on">Switch the brooch on</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#animations">Animations</a>
+                        <ul class="nav flex-column">
+                            <li class="nav-item"><a class="nav-link" href="#animation_beat">Beat</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#animation_twinkle">Twinkle</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#animation_snake">Snake</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#animation_solid">Solid</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#animation_segment">Segment</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Docs Content
+    ============================ -->
+            <div class="idocs-content">
+                <div class="container">
+                    <!-- Getting Started
+		============================ -->
+                    <section id="idocs_start">
+                        <h1>Documentation</h1>
+                        <p class="lead">One brooch to beat them all</p>
+                        <hr>
+                        <div class="row">
+                            <div class="col-sm-6 col-lg-4">
+                                <ul class="list-unstyled">
+                                    <li><strong>Doc Version:</strong> 1.0</li>
+                                    <li><strong>Hardware version:</strong> 1.1</li>
+                                    <li><strong>Author:</strong> <a href="https://github.com/Bdenouden"
+                                            target="_blank">Bram den Ouden</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-6 col-lg-4">
+                                <ul class="list-unstyled">
+                                    <li><strong class="font-weight-700">Created:</strong> 14 September, 2023</li>
+                                    <li><strong>Update:</strong> 14 September, 2023</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+
+                    <hr class="divider">
+
+                    <!-- Powering on the device -->
+                    <section id="first_use">
+                        <h2>First use</h2>
+                        <p class="lead">So you've just received your HeartBroche and want to use it? Follow these steps:
+                        </p>
+                        <ol>
+                            <li>The HeartBroche comes in a ziplog bag on which you found a link or QR code to this
+                                manual. Take the brooch and any accesories you got with it out of the bag.</li>
+                            <li id="insert_battery">Check if the <strong>CR2032 battery</strong> is inserted the right
+                                way. The positive
+                                terminal should be facing away from the brooch.
+                                <a class="popup-img" href="assets/images/battery_insert.png">
+                                    <img src="assets/images/battery_insert.png" class="img-fluid img-thumbnail"
+                                        alt="image showing how to turn on the broche">
+                                </a>
+                            </li>
+                            <li id="switch_on">Check if the switch on the bottom side of the HeartBroche is turned on.
+                                The on position
+                                is indicated in the figure below.
+
+                                <a class="popup-img" href="assets/images/broche_on_off.svg">
+                                    <img src="assets/images/broche_on_off.png" class="img-fluid img-thumbnail"
+                                        alt="image showing how to turn on the brooch">
+                                </a>
+
+                            </li>
+                            <li>When the battery is inserted and the brooch is turned on, a led will start running
+                                across the brooch as if it were an ECG recording. This animation will repeat itself
+                                every 3 seconds.</li>
+                            <li>You can now attach the brooch to your clothing using the included magnet or (safety)
+                                pin.
+                                <p class="alert alert-danger"><i class="fab fa-warning"></i>you have a pacemaker or
+                                    other device sensitive to magnetic fields, do not use a magnet to attach the brooch
+                                    to your clothing.</p>
+                            </li>
+                            <li>To turn the Heartbroche off when you're done, simply switch the slider to the off
+                                position.</li>
+                    </section>
+
+                    <section id="animations">
+                        <h2>Animations</h2>
+                        <p class="lead">Since each LED of the brooch can be controlled individually it can also show
+                            simple animations. When turning the brooch on, the default animation, called "Beat", will
+                            play.
+                            To switch between the different animations, press the button at the bottom of the brooch.
+                            While you hold the button, the LEDs indicate which animation you've selected, release and
+                            press again to go to the next animation: When the first animation is selected, only the
+                            first LED will be on, second animation means 2 LEDs are on and this continues until 5 LEDs
+                            are on. To cycle back to earlier animations, keep pressing the button until you start again
+                            at the first animation. To confirm the selected animation, stop pressing the button. After 1
+                            second, the selected animation will start.
+                            The 5 different animations which are currently implemented are:</p>
+                        <a class="popup-img" href="assets/images/mode_select.webp">
+                            <img src="assets/images/mode_select.webp" class="img-fluid img-thumbnail"
+                                alt="image showing how to turn on the brooch">
+                        </a>
+                        <ol>
+                            <li id="animation_beat"><strong>Beat</strong> This animation lets a single light run across
+                                all LEDs to emulate
+                                the recording of an ECG trace. After the light has reached the last LED, it takes 3
+                                seconds for the next light to start running.</li>
+                            <li id="animation_twinkle"><strong>Twinkle</strong> This animation randomly blinks a few
+                                LEDs causing a twinkling animation.</li>
+                            <li id="animation_snake"><strong>Snake</strong> The snake animation closely resembles the
+                                beat with the difference that multiple light will slowly run across the LEDs. In
+                                addition some LEDs around the snake may twinkle </li>
+                            <li id="animation_solid"><strong>Solid</strong> This will turn all LEDs on at a lower
+                                intensity.</li>
+                            <li id="animation_segment"><strong>Segment</strong> The segment animation will step through
+                                all LEDs 3 or 4 at a time. It is a more relaxed alternative to the snake animation.</li>
+                        </ol>
+
+                    </section>
+
+                    <section id=""></section>
+
+
+
+
+                </div>
+            </div>
+        </div>
+        <!-- Content end -->
+
+        <!-- Footer -->
+        <footer id="footer" class="section bg-dark footer-text-light">
+            <div class="container">
+                <ul class="social-icons social-icons-lg social-icons-muted justify-content-center mb-3">
+                    <li class="social-icons-github"><a data-toggle="tooltip"
+                            href="https://github.com/Bdenouden/heartbroche-docs" target="_blank" title=""
+                            data-original-title="Github"><i class="fab fa-github"></i></a></li>
+                    <li class="social-icons-instagram"><a data-toggle="tooltip"
+                            href="https://www.instagram.com/bm_labs/" target="_blank" title=""
+                            data-original-title="Instagram"><i class="fab fa-instagram"></i></a></li>
+                </ul>
+                <p class="text-muted text-center">
+                    This website is based on the<a target="_blank" href="https://github.com/harnishdesign/iDocs"> iDocs
+                    </a> template by <a href="https://harnishdesign.net/" class="fw-500">Harnish Design</a>.
+                </p>
+
+            </div>
+        </footer>
+        <!-- Footer end -->
+
+    </div>
+    <!-- Document Wrapper end -->
+
+    <!-- JavaScript -->
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <!-- Highlight JS -->
+    <script src="assets/vendor/highlight.js/highlight.min.js"></script>
+    <!-- Easing -->
+    <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <!-- Magnific Popup -->
+    <script src="assets/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+    <!-- Custom Script -->
+    <script src="assets/js/theme.js"></script>
 </body>
+
 </html>
